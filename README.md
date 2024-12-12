@@ -1,26 +1,17 @@
 # todo_list_api
-LawAdvisorTest
+Created and sort tasks.
+
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Setup on Development env.
 
-Things you may want to cover:
+* run `make setup`
+  
+  This will do the ff.
+  * Create .env based on env.template.yml
+  * Using entrypoint it will run db:migrate
 
-* Ruby version
+* run `make start`
 
-* System dependencies
+  This will just start the project so API can be accessible through localhost:3000
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
