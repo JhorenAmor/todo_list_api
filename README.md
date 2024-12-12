@@ -15,3 +15,7 @@ Setup on Development env.
 
   This will just start the project so API can be accessible through localhost:3000
 
+
+### Notes
+
+I already added a postman collection here.
