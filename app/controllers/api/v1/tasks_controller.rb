@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Api
   module V1
     class TasksController < NamespaceController
@@ -61,7 +63,7 @@ module Api
         missing_task_ids = task_ids.map(&:to_i) - existing_task_ids
 
         if missing_task_ids.any?
-          render json: { error: "Invalid task IDs: #{missing_task_ids.join(', ')}" }, status: :unprocessable_entity 
+          render json: { error: "Invalid task IDs: #{missing_task_ids.join(', ')}" }, status: :unprocessable_entity
           return
         end
 
